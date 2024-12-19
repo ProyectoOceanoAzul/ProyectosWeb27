@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Flexbox</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="inicio">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <img src="./imagenes/logocody.svg" alt="logocody" title="logocody">
+                    <h1 class="logo__titulo">Hans</h1>
+                </div>
+
+
+                <div class="superior__menu">
+                    <ul>
+                        <li><a href="index.html">Heim</a></li>
+                        <li><a href="about.html">Über uns</a></li>
+                        <li><a href="services.html" style="color: #8e43e7;">Dienstleistungen</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+    <!-- banner -->
+    <section class="contenedor__banner">
+        <div class="contenedor">
+
+            <div class="banner__fila">
+                <div class="banner__izq">
+                    <h3>Dienstleistungen</h3>
+                </div>
+
+                <div class="banner__der">
+                    <span class="estilo1"><a href="index.html">Heim</a></span>
+                    <span class="estilo2"> » Infoseite</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- contenedor__servicess1 -->
+    <section class="contenedor__servicess1">
+        <div class="contenedor">
+
+
+            <div class="servicess1__fila">
+
+                <div class="cardservices">
+                    <div class="cardservices__grupo">
+                        <div class="cardservices__cabecera">
+                            <img src="./imagenes/html5.svg" alt="html5" title="html5">
+                        </div>
+
+                        <div class="cardservices__cuerpo">
+
+                            <h4>Designtrends</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                obcaecati, minima
+                                aspernatur quibusdam dignissimos blanditiis!
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="cardservices">
+                    <div class="cardservices__grupo">
+                        <div class="cardservices__cabecera">
+                            <img src="./imagenes/wordpress.svg" alt="wordpress" title="wordpress">
+                        </div>
+
+                        <div class="cardservices__cuerpo">
+
+                            <h4>Web Development</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                obcaecati, minima
+                                aspernatur quibusdam dignissimos blanditiis!
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="cardservices">
+                    <div class="cardservices__grupo">
+                        <div class="cardservices__cabecera">
+                            <img src="./imagenes/tablet.svg" alt="tablet" title="tablet">
+                        </div>
+
+                        <div class="cardservices__cuerpo">
+
+                            <h4>Vollständig Reaktionsfähig</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                obcaecati, minima
+                                aspernatur quibusdam dignissimos blanditiis!
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="servicess1__fila">
+
+                <div class="cardservices">
+                    <div class="cardservices__grupo">
+                        <div class="cardservices__cabecera">
+                            <img src="./imagenes/pencil.svg" alt="pencil" title="pencil">
+                        </div>
+
+                        <div class="cardservices__cuerpo">
+
+                            <h4>Branding</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                obcaecati, minima
+                                aspernatur quibusdam dignissimos blanditiis!
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="cardservices">
+                    <div class="cardservices__grupo">
+                        <div class="cardservices__cabecera">
+                            <img src="./imagenes/laptop.svg" alt="laptop" title="laptop">
+                        </div>
+
+                        <div class="cardservices__cuerpo">
+
+                            <h4>PSD Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                obcaecati, minima
+                                aspernatur quibusdam dignissimos blanditiis!
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="cardservices">
+                    <div class="cardservices__grupo">
+                        <div class="cardservices__cabecera">
+                            <img src="./imagenes/headphones.svg" alt="headphones" title="headphones">
+                        </div>
+
+                        <div class="cardservices__cuerpo">
+
+                            <h4>Kundensupport</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                                obcaecati, minima
+                                aspernatur quibusdam dignissimos blanditiis!
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- contenedor__homes8project -->
+    <section class="contenedor__homes8project">
+        <div class="contenedor">
+
+            <h5>Kontaktieren Sie uns</h5>
+            <h3>Lass uns ein Projekt starten! Stelle mich ein</h3>
+
+
+            <div class="fila__botones">
+
+                <a href="contact.html" class="btn btn--light">
+                    Kontaktieren Sie uns
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- contenedor__footer -->
+    <section class="contenedor__footer">
+        <div class="contenedor">
+            <div class="footer__fila">
+                <div class="footer__section1">
+                    <h4>Hans Von Breidbach-Bürresheim</h4>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, non!
+                    </p>
+
+                    <div class="redsocial">
+                        <a href="#"><img src="./imagenes/facebook1.svg" alt="facebook1" title="facebook1"></a>
+
+                        <a href="#"><img src="./imagenes/twitter1.svg" alt="twitter1" title="twitter1"></a>
+
+                        <a href="#"><img src="./imagenes/instagram1.svg" alt="instagram1" title="instagram1"></a>
+
+                        <a href="#"><img src="./imagenes/linkedin1.svg" alt="linkedin1" title="linkedin1"></a>
+
+                    </div>
+                </div>
+
+
+                <div class="footer__section1">
+                    <h4>Link</h4>
+
+                    <ul class="menu__opciones">
+                        <li><a href="index.html">» Heim</a></li>
+                        <li><a href="about.html">» über Uns</a></li>
+                        <li><a href="services.html">» Dienstleistungen</a></li>
+                        <li><a href="contact.html">» Kontakt</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer__section1">
+                    <h4>Dienstleistungen</h4>
+
+                    <ul class="menu__opciones">
+                        <li><a href="services.html">» Dienstleistungen 1</a></li>
+                        <li><a href="services.html">» Dienstleistungen 2</a></li>
+                        <li><a href="services.html">» Dienstleistungen 3</a></li>
+                        <li><a href="services.html">» Dienstleistungen 4</a></li>
+                        <li><a href="services.html">» Dienstleistungen 5</a></li>
+                        <li><a href="services.html">» Dienstleistungen 6</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer__section1">
+                    <h4>Kontakt</h4>
+
+                    <ul class="menu__opciones">
+                        <li><a
+                                href="https://api.whatsapp.com/send?phone=974731614&amp;text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20de%20los%20servicios">
+                                » +51 974 731 614
+                            </a></li>
+                        <li><a href="mailto:gnerylozada@gmail.com">» mail@example.com</a></li>
+                        <li><a href="services.html">» Grünstraße 15, 40212 Düsseldorf, Germany</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footerautor">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy;2024, Derechos Reservados, Diseñado por
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Jeder Beitrag, egal wie klein, kann jemandes Leben verändern. Spende:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
